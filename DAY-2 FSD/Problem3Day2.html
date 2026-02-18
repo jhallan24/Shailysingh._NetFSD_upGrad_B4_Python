@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <!--external css link-->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Students Registration Form</h1>
+    <p>I hereby submit my application for registration at [Insert School/Institute Name] and declare that all information provided in this form is true, accurate, and complete to the best of my knowledge. By signing below, I agree to adhere to all rules, regulations, and academic policies of the institution. I understand that my admission is subject to the verification of my documents, and I commit to fulfilling all financial obligations regarding tuition and fees within the specified deadlines</p>
+    
+    <div class="structure">
+    <form action="sucessP3.html">
+        <!--Name-->
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+        <!--Email-->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <!--Phone-->
+        <label for="Phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10 Digits" required>
+        <br><br>
+        <!--age-->
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="5" max="20" required>
+        <br><br>
+        <!--Date of birth-->
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        <!--submit button-->
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>

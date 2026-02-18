@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem1</title>
+</head>
+<body>
+    <!--navigation link-->
+    <nav>
+        <a href="Problem1Day2.html">Home</a> |
+        <a href="contactP1.html">Contact</a> 
+    </nav>
+    <h1> Registration Form</h1>
+    <!--form shows sucessful msg-->
+    <form action="SucessP1.html"> 
+        <!--Name-->
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Full name" required>
+        <br><br>
+        <!--Email-->
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="enter email" required>
+        <br><br>
+        <!--password-->
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        <br><br>
+        <!--Gender-->
+        <label for="Gender">Gender</label>
+        <input type="radio" id="Gendermale" name="Gender" value="Male" required>
+        <label for="Gendermale">Male</label>
+        <input type="radio" id="GenderF" name="Gender" value="Female" required>
+        <label for="GenderF">Female</label>
+        <br><br>
+        <!--Courses-->
+        <label for="Select Course">Select Course</label>
+        <input list="courselist" placeholder="Select your course" required>
+        <!--option of courses-->
+        <datalist id="courselist">
+            <option value="Html">
+                <option value="CSS">
+                    <option value="JAVA">
+                        <option value="Python">
+
+        </datalist>
+        <br><br>
+        <input type="submit" value="submit">
+        
+
+    </form>
+    
+</body>
+</html>
